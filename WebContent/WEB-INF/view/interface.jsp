@@ -9,9 +9,8 @@
 <body>
 
 
-	<iframe src="messages.jsp" 
-		width="700px" height="400px"> </iframe>
-	<form action="messages.jsp" method="post" target ="_self" >
+	<iframe src="messages.jsp" width="700px" height="400px" name="messages"> </iframe>
+	<form action="messages.jsp" method="post" target ="messages" >
 		<label>Envoyer Votre message</label> <input type="text" name="message" /> <input
 			type="submit" value="Envoyer" />
 	</form>
